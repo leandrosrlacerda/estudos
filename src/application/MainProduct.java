@@ -21,6 +21,11 @@ public class MainProduct {
 
         Product product = new Product(name, price, quantity);
 
+        product.setName("Computer");
+        System.out.println("Update name: " + product.getName());
+        product.setPrice(1200.00);
+        System.out.println("Update price: " + product.getPrice());
+
         System.out.println("Product data: " + product);
         System.out.println();
         System.out.print("Enter the number of products to be added in stock: ");
