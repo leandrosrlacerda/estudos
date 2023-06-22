@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import static util.CalculatorProgram1.*;
 
-public class Programa1 {
+public class MainCurrency {
 
     public static void main(String[] args) {
 
